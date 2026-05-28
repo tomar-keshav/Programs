@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Practice question - https://leetcode.com/problems/number-of-provinces
+
 void dfs(int u, vector<vector<int>> &g, vector<bool> &vis){
 	vis[u] = true;
 	for(auto v: g[u]){

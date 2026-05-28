@@ -17,6 +17,8 @@ public:
         {
             children[i] = NULL;
         }
+
+        
         // assuming only lowercase letters are present in words and a-> 0 , b-> 1, c->2 and so on
         isTerminal = false;
     }

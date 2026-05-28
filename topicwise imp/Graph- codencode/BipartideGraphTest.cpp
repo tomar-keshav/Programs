@@ -1,7 +1,18 @@
 // a graph is bipartide if nodes present in it can be divided into 2 groups such that nodes in 1 group only has interactions with node in another group
 
+// Bipartite graph = Independent set + Disjoint set
+/*
+Independent set => no edge between 2 elements of same group
+Disjoint set = an element only occurs in one group
+*/
+
+// observation - all graphs are bipartite, except the ones containing a cycle of ODD length (think of a cycle of length 3)
+
 // https://leetcode.com/problems/is-graph-bipartite
 //  see this interesting example - https://www.spoj.com/problems/BUGLIFE/
+
+
+// a similar question is also availble on leetcode https://leetcode.com/problems/possible-bipartition/
 
 #include <bits/stdc++.h>
 
